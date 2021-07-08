@@ -1,0 +1,213 @@
+/*#003F63*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    background-color: cornsilk;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    background-color: #003F63;
+}
+
+nav{
+    padding: 5px;
+    width: auto;
+    font-size: clamp(1rem, 1.5vw, 1.5rem); 
+}
+
+ul{ flex-wrap: wrap;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+ul a{
+    text-decoration: none;
+    padding: 15px;
+    color: cornsilk;
+    border-radius: 5px;
+}
+
+ul a:hover{
+    background-color: #002d47;
+}
+
+/*main*/
+
+main{
+    background-color: #003F63;
+    display: flex;
+    padding: 40px 5px;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 30px;
+    background-color: #002d47;
+    width: 500px;
+    color: cornsilk;
+}
+
+.about h3, h1, p{
+    margin: 10px;
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #002d47;
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/*sections*/
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.car-cont{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    font-family: 'Rubik', sans-serif;
+    font-size: small;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #002d47;
+    margin: 10px;
+    padding: 10px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+.description{
+    padding: 2px;
+    color: azure;
+}
+
+.description h2{
+    text-align: center;
+}
+
+/*projetos*/
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.proj-cards{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+code{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    background-color: #002d47;
+    color: cornsilk;
+    width: 80%;
+    overflow: hidden;
+}
+
+
+.proj-cards img{
+    border-radius: 5px;
+    width: 100%;
+    transform: scale(.9);
+    transition: .5s all ease;
+}
+
+.proj-cards img:hover{
+    transform: scale(1);
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pe{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #003F63;
+}
+
+.network{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.network a:hover{
+    transform: scale(1.1);
+}
+
+.dw a{
+    padding: 3px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: azure;
+    background-color: #002d47;
+    transform: scale(.9);
+    transition: .5s all ease;
+}
+
+.dw a:hover{
+    transform: scale(1);
+}
