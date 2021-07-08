@@ -35,7 +35,6 @@ ul{
 ul li{
     text-align: center;
     justify-content: center;
-    margin: 5px;
     padding: 5px;
     font-weight: bold;
 }
@@ -43,7 +42,7 @@ ul li{
 ul a{
     text-align: center;
     text-decoration: none;
-    padding: 15px;
+    padding: 5px;
     color: cornsilk;
     border-radius: 5px;
 }
