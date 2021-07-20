@@ -225,3 +225,20 @@ footer{
 .dw a:hover{
     transform: scale(1);
 }
+
+.pe button {
+    position: fixed;
+    right: 1%;
+    top: 90%;
+    background-color: #002d47;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: .5;
+    border: 1px solid azure;
+}
+
+.pe button i{
+    color: azure;
+}
